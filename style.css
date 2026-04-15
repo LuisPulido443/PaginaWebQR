@@ -1,0 +1,36 @@
+body{
+    background-color: hsl(212, 45%, 89%);
+
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container{
+    box-sizing: border-box;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 15px;
+    width: 200px;
+   
+    padding: 10px;
+    justify-content: center;
+}
+
+h1{
+    font-size: 0.7rem;
+    text-align: center;
+}
+
+p{
+    font-size: 0.7rem;
+    text-align: center;
+}
+
+.container img{
+    width: 180px;
+    border-radius: 10px;
+}
